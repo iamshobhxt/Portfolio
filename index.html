@@ -3,151 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Website</title>
-    <link rel="stylesheet" href="style.css">     
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    
 </head>
 <body>
-                <div class="navbar">
-                    <nav>
-                        <h2>Portfolio</h2>
-                        <div>
-                            <a href="#home">home</a>
-                            <a href="#about">about</a>
-                            <a href="#services">services</a>
-                            <a href="#resume">resume</a>
-                            <a href="#projects">projects</a>
-                            <a href="#skills">skills</a>
-                            <a href="#contact">contact</a>
-                          </div>
-                    </nav>
-                </div>
-    
-            <section id="home">
-                <div class="main">
-                    <div class="flex">
-                        <h5>hello!</h5>
-                        <h1>I'm Shobhit Yadav</h1>
-                        <h2>Frontend Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Quisquam, nostrup</p>
-                        <button> Dounload resume</button>    
-                    </div>
-                        <img src="img shobhit.jpg" width="100"  height="100">
-                </div>             
-            </section>
+    <header>
+        <nav class="container">
+            <div class="logo">SHOBHIT YADAV</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-            <section id="about">
-                <div class="about">
-                    <img src="shobhit-removebg-preview.png" alt="">
-                    <div class="flex1">
-                        <h2>About <span>Me</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda unde id eveniet quis odio quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolor eligendi hic non quidem culpa assumenda voluptas corrupti. Voluptas, possimus?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Placeat, quisquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores officiis sapiente accusamus distinctio ex at suscipit, iure, porro ipsa, hic recusandae libero dolore! Quis quam cumque eius odio at Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, illo.<p>
-                         <input type="button" value="contact us">
-                    </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hello! I'm Shobhit Yadav</h1>
+                    <p>Frontend Web Developer</p>
+                    <a href="#about" class="cta-button">Learn More About Me</a>
+                    <a href="#about" class="cta-button">Download Resume Here</a>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="services">
-               <div class="serve">
-                <h2>My <span>services</span></h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit commodi sunt id quae tempora exercitationem necessitatibus quidem rem ea? Explicabo animi deserunt modi dicta debitis!</p>
-                <div class="flex3">
-                    <div class="box1">
-                        <img src="advertise_5216000.png" alt="">
-                        <h2>Digital</h2>
-                        <h2><span>Marketing</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam, repellat officia nobis  Lorem velit vero.</p>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>I'm a passionate Frontend Web Developer with a keen eye for creating beautiful, responsive, and user-friendly websites. I love turning ideas into interactive digital experiences that not only look great but also provide excellent user experiences across all devices.</p>
+                        <p>With expertise in modern web technologies, I focus on writing clean, efficient code and staying up-to-date with the latest industry trends and best practices. I believe in the power of responsive design to make the web accessible to everyone, everywhere.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge with the developer community.</p>
                     </div>
-                    <div class="box2">
-                        <img src="personal-development.png" alt="">
-                        <h2>Web</h2>
-                        <h2><span>Devlopment</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione pariatur consectetur culpa nulla natus expedita?</p>
-                    </div>
-                    <div class="box3">
-                        <img src="layers.png" alt="">
-                        <h2>Creative</h2>
-                        <h2><span>Graphic Design</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione pariatur consectetur culpa nulla natus expedita?</p>
+                    <div class="about-image">
+                        <img src="my Image1.png" alt="">
                     </div>
                 </div>
-               </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="projects">
-                <div class="flex4">
-                    <h2>My<span>Projects</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ipsam iusto quam dolore numquam obcaecati voluptas rem culpa sapiente Lorem ipsum, dolor sit amet consectetur adipisicing elit.Enim, placeat.eum!</p>
-                    <div>
-                        <img src="imga16.jpg" alt="">
-                        <img src="imga3.jpg" alt="">
-                        <img src="imga24.jpg" alt="">
-                        <img src="imga44.jpg" alt="">    
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>React.js</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Tailwind CSS</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>C++</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Git/GitHub</h3>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Responsive Design</h3>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="skills">
-                <div class="skl">
-                    <h1>My <span>Skills</span></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <div class="contentbox">
-                        <div class="sbox1">
-                            <img src="c img.png" alt="">
-                            <p>C</p>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">Project 1</div>
+                        <div class="project-content">
+                            <h3>E-Commerce Website</h3>
+                            <p>A fully responsive e-commerce platform built with React and modern CSS. Features include product catalog, shopping cart, and responsive design across all devices.</p>
+                            <a href="#" class="project-link">View Project →</a>
                         </div>
-                        <div class="sbox1">
-                            <img src="html.png" alt="">
-                            <p>HTML</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">Project 2</div>
+                        <div class="project-content">
+                            <h3>Weather App</h3>
+                            <p>An interactive weather application that provides real-time weather data with a beautiful, responsive interface that works seamlessly on all screen sizes.</p>
+                            <a href="#" class="project-link">View Project →</a>
                         </div>
-                        <div class="sbox1">
-                            <img src="css-3.png" alt="">
-                            <p>CSS</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">Project 3</div>
+                        <div class="project-content">
+                            <h3>Task Management Tool</h3>
+                            <p>A productivity app with drag-and-drop functionality, built using modern JavaScript frameworks with full responsive design principles.</p>
+                            <a href="#" class="project-link">View Project →</a>
                         </div>
-                        <div class="sbox1">
-                            <img src="js img.png" alt="">
-                            <p>JavaScript</p>
-                        </div>
-                        <div class="sbox1">
-                            <img src="react img.png" alt="">
-                            <p>ReactJs</p>
-                        </div>
-                        <div class="sbox1">
-                            <img src="tailwind img.png" alt="">
-                            <p>Tailwind</p>
-                        </div>
-                        <div class="sbox1">
-                            <img src="c++ img.png" alt="">
-                            <p>C++</p>
-                        </div>
-                        <div class="sbox1">
-                            <img src="github img.png" alt="">
-                            <p>Github</p>
-                        </div>                        
                     </div>
                 </div>
+            </div>
+        </section>
 
-            </section>
-
-            <section id="contact">
-               <div class="flex5">
-                <h2>Contact <span>Me</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam provident dolorem sapiente esse aliquid quis vero explicabo tempora, quasi quod? Modi quod illum ipsum nesciunt.</p>
-                <div class="show">
-                   <div class="grid">
-                     <h4>Email:<a href="mailto:shobhityadav1103@gmail.com">shobhityadav1103@gmail.com</a></h4>
-                     <h4>LinkedIn:<a href="https://github.com/iamshobhxt">iamshobhxt</a></h4>
-                     <h4>phone no.:<a href="tel:7318001871">7318001871</a></h4>
-                   </div>
-                    <div class="inp">
-                        <input  placeholder="Enter Your Name">
-                        <textarea placeholder="Enter Your Message" id="" cols="30" rows="10"></textarea>
-                         <button>Submit Here</button>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'm always interested in new opportunities and exciting projects. Let's connect and discuss how we can work together!</p>
+                <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
                     </div>
-                </div>
-               </div>
-            </section>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or just say hello!" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shobhit Yadav. All rights reserved. Built with ❤️ and responsive design.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
